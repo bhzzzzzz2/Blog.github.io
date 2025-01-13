@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>这是第一个Blog | HappyBlog</title><meta name="author" content="BadHappy"><meta name="copyright" content="BadHappy"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="就是默认主题有点丑（（（">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>这是第一个Blog | HappyBlog</title><meta name="author" content="BadHappy,BadHappy@fishboom.top"><meta name="copyright" content="BadHappy"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="就是默认主题有点丑（（（">
 <meta property="og:type" content="article">
 <meta property="og:title" content="这是第一个Blog">
 <meta property="og:url" content="https://blog.fishboom.top/2025/01/12/hello-world/">
@@ -169,7 +169,7 @@
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://badhappy-twikoo.hf.space',
+      envId: 'https://tikwoo.fishboom.top/',
       region: 'ap-east-1',
       urls: [window.location.pathname],
       includeReply: false
@@ -183,7 +183,7 @@
   const init = (el = document, path = location.pathname) => {
     twikoo.init({
       el: el.querySelector('#twikoo-wrap'),
-      envId: 'https://badhappy-twikoo.hf.space',
+      envId: 'https://tikwoo.fishboom.top/',
       region: 'ap-east-1',
       onCommentLoaded: () => {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
